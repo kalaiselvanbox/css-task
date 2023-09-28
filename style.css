@@ -153,6 +153,13 @@ button {
         margin-bottom: 5px;
     }
 
+    nav ul li {
+        height: auto;
+    }
+    .active{
+        border: none;
+    }
+
     .btnDiv {
         text-align: center;
     }
