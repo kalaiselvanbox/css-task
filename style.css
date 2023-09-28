@@ -37,12 +37,15 @@ nav ul {
     flex-direction: row;
     text-align: center;
     gap: 20px;
+    padding: 0px;
 }
 
 nav ul li {
-    padding: 5px;
-    height: 100%;
+    padding: 1px;
+    height: 80px;
     margin: 0;
+    display: flex;
+    align-items: center;
 }
 
 section {
@@ -67,10 +70,12 @@ section {
 
 nav ul li:hover {
     color: rgb(255, 251, 0);
+    border-bottom: 3px solid rgb(255, 251, 0);
 }
 
 .active {
     color: rgb(255, 208, 0);
+    border-bottom: 3px solid rgb(255, 208, 0);
 }
 
 button {
